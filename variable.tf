@@ -10,3 +10,12 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
+
+variable "vm_count"{
+    type=number
+    default=4
+}
+variable "vm_size"{
+    type=string
+    default="Standard_F2"
+}
