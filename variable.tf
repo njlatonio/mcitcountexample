@@ -19,3 +19,10 @@ variable "vm_size"{
     type=string
     default="Standard_F2"
 }
+
+variable "administrator_login"{
+  type=string
+}
+variable "administrator_login_password"{
+  type=string
+}
