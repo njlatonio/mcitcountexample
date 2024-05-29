@@ -1,3 +1,9 @@
+# Resource Group
+resource "azurerm_resource_group" "rg" {
+  name     = "MCIT_RG"
+  location = "Canada Central"
+}
+
 resource "azurerm_virtual_network" "vnetexample" {
   name                = "example-vnet"
   address_space       = ["10.0.0.0/16"]
